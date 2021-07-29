@@ -1,0 +1,75 @@
+div .content h1 img {
+    width: 4em;
+    max-width: 85%;
+}
+
+.center {
+    text-align: center;
+}
+
+.image img.leftalign {
+    object-position: left !important;
+}
+
+div .content p img {
+    width: 10em;
+    max-width: 85%;
+}
+
+#firstcover {
+    object-position: top;
+}
+
+q, blockquote {
+    quotes: "„ " " “";
+    font-style: italic;
+}
+
+q::before, blockquote::before {
+    content: open-quote;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+q::after, blockquote::after {
+    content: close-quote;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1680px) {
+
+    .banner.style1 .content {
+        padding-top: 3rem;
+    }
+
+
+
+/* @media screen and (max-width: 1680px) {
+    #firstcover {
+        object-position: -13.3vh;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+
+    #firstcover {
+        object-position: left;
+    }
+
+}
+
+@media screen and (max-width: 736px) {
+
+    #firstcover {
+        object-position: left;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+
+    #firstcover {
+        object-position: -5vh;
+    }
+
+} /**/
