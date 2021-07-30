@@ -41,7 +41,15 @@ q::after, blockquote::after {
     .banner.style1 .content {
         padding-top: 3rem;
     }
+}
 
+.gallery.style2.missromania article {
+    width: 250px;
+}
+
+.gallery.style2.teaudromania article {
+    width: 350px;
+}
 
 
 /* @media screen and (max-width: 1680px) {
